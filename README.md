@@ -1,2 +1,2 @@
 # nextjs-website-ornek
-Next Js ile website yapımı
+Next Js kullanarak bir web sayfası yapılışı
