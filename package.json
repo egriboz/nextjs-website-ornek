@@ -1,0 +1,20 @@
+{
+  "name": "nextjs-website-ornek",
+  "version": "1.0.0",
+  "description": "Next Js kullanarak bir web sayfası yapılışı",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egriboz/nextjs-website-ornek.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egriboz/nextjs-website-ornek/issues"
+  },
+  "homepage": "https://github.com/egriboz/nextjs-website-ornek#readme"
+}
