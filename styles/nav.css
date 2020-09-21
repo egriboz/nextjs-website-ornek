@@ -1,0 +1,10 @@
+nav li {
+  margin: 0;
+  padding: 0;
+  list-style-type: square;
+}
+
+nav a {
+  color: rebeccapurple;
+  font-weight: bold;
+}

@@ -1,11 +1,13 @@
 import Link from 'next/link'
+// Useage css module
+import styles from './nav.module.css'
 
 function Navigation() {
   return (
     <nav>
       <li>
         <Link href="/">
-          <a className="nav-link">Home</a>
+          <a className={styles.customLink}>Home</a>
         </Link>
       </li>
       <li>
