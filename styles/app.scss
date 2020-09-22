@@ -4,4 +4,16 @@ body {
     padding: 5px;
     border: 1px solid red;
   }
+
+  .thlist {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+      max-width: 120px;
+    }
+  }
 }
