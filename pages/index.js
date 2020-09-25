@@ -1,7 +1,7 @@
 import Layout from '../components/layout'
 import Head from 'next/head'
 import Link from 'next/link'
-import unfetch from 'isomorphic-unfetch'
+// import unfetch from 'isomorphic-unfetch'
 import slug from 'slug'
 
 function HomePage({ characters }) {
@@ -36,7 +36,7 @@ function HomePage({ characters }) {
 }
 
 export async function getStaticProps() {
-  const data = await unfetch('https://rickandmortyapi.com/api/character/')
+  const data = await fetch('https://rickandmortyapi.com/api/character/?page=2')
   const characters = await data.json()
   return {
     props: {
