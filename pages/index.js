@@ -4,13 +4,16 @@ import Link from 'next/link'
 // import unfetch from 'isomorphic-unfetch'
 import slug from 'slug'
 
+import SiteConfig from '../site.config'
+
 function HomePage({ characters }) {
   return (
     <Layout>
       <Head>
-        <title>Ana sayfa</title>
+        <title>{SiteConfig.title}</title>
       </Head>
-      <h1 className="title">THE TITLE</h1>
+
+      <h1 className="title">{SiteConfig.title}</h1>
 
       <ul className="thlist">
         {characters.results.map((character) => (
@@ -29,8 +32,6 @@ function HomePage({ characters }) {
           </li>
         ))}
       </ul>
-
-      <style jsx>{``}</style>
     </Layout>
   )
 }
